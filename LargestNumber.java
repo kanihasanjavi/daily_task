@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import java.util.Scanner;
 
 public class LargestNumber {
@@ -21,3 +22,28 @@ public class LargestNumber {
         scanner.close();
     }
 }
+=======
+
+import java.util.Scanner;
+public class LargestNumber{
+public static void main(String args[]){
+Scanner scanner=new Scanner(System.in);
+System.out.println("the number is :");
+int a=scanner.nextInt();
+System.out.println("the number is :");
+int b=scanner.nextInt();
+System.out.println("the number is :");
+int c=scanner.nextInt();
+if(a>=b&&a<=c){
+System.out.println("the largest number is :"+a);
+}
+else if(a>=b&&a>=c){
+System.out.println("the largest number is :"+b);
+}
+else{
+System.out.println("the largest number is :"+c);
+}
+scanner.close();
+}
+}
+>>>>>>> e212ebf (the file tracked)
